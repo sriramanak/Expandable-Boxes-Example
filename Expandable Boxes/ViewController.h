@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MaximizedViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<rootviewDelegate>
+
+@property (strong, nonatomic) IBOutlet UILabel *topLabel;
+@property (strong, nonatomic) IBOutlet UILabel *bottomLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *imgView;
 
 
 @end

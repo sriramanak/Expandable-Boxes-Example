@@ -14,6 +14,9 @@
 		8A0EDFB51A035D45002F483F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0EDFB41A035D45002F483F /* Images.xcassets */; };
 		8A0EDFB81A035D45002F483F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A0EDFB61A035D45002F483F /* LaunchScreen.xib */; };
 		8A0EDFC41A035D45002F483F /* Expandable_BoxesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0EDFC31A035D45002F483F /* Expandable_BoxesTests.m */; };
+		8A0EDFCE1A035F14002F483F /* apple-working-fix-app-crashes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A0EDFCD1A035F14002F483F /* apple-working-fix-app-crashes.jpg */; };
+		8A0EDFD51A036A67002F483F /* MaximizedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0EDFD31A036A67002F483F /* MaximizedViewController.m */; };
+		8A0EDFD61A036A67002F483F /* MaximizedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A0EDFD41A036A67002F483F /* MaximizedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		8A0EDFBD1A035D45002F483F /* Expandable BoxesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Expandable BoxesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0EDFC21A035D45002F483F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A0EDFC31A035D45002F483F /* Expandable_BoxesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Expandable_BoxesTests.m; sourceTree = "<group>"; };
+		8A0EDFCD1A035F14002F483F /* apple-working-fix-app-crashes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-working-fix-app-crashes.jpg"; sourceTree = "<group>"; };
+		8A0EDFD21A036A67002F483F /* MaximizedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaximizedViewController.h; sourceTree = "<group>"; };
+		8A0EDFD31A036A67002F483F /* MaximizedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaximizedViewController.m; sourceTree = "<group>"; };
+		8A0EDFD41A036A67002F483F /* MaximizedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaximizedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +93,11 @@
 				8A0EDFAE1A035D45002F483F /* ViewController.h */,
 				8A0EDFAF1A035D45002F483F /* ViewController.m */,
 				8A0EDFB11A035D45002F483F /* Main.storyboard */,
+				8A0EDFD21A036A67002F483F /* MaximizedViewController.h */,
+				8A0EDFD31A036A67002F483F /* MaximizedViewController.m */,
+				8A0EDFD41A036A67002F483F /* MaximizedViewController.xib */,
 				8A0EDFB41A035D45002F483F /* Images.xcassets */,
+				8A0EDFCD1A035F14002F483F /* apple-working-fix-app-crashes.jpg */,
 				8A0EDFB61A035D45002F483F /* LaunchScreen.xib */,
 				8A0EDFA71A035D45002F483F /* Supporting Files */,
 			);
@@ -199,6 +210,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0EDFD61A036A67002F483F /* MaximizedViewController.xib in Resources */,
+				8A0EDFCE1A035F14002F483F /* apple-working-fix-app-crashes.jpg in Resources */,
 				8A0EDFB31A035D45002F483F /* Main.storyboard in Resources */,
 				8A0EDFB81A035D45002F483F /* LaunchScreen.xib in Resources */,
 				8A0EDFB51A035D45002F483F /* Images.xcassets in Resources */,
@@ -222,6 +235,7 @@
 				8A0EDFB01A035D45002F483F /* ViewController.m in Sources */,
 				8A0EDFAD1A035D45002F483F /* AppDelegate.m in Sources */,
 				8A0EDFAA1A035D45002F483F /* main.m in Sources */,
+				8A0EDFD51A036A67002F483F /* MaximizedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
